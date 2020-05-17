@@ -181,3 +181,13 @@ button:disabled {
     font-weight: 300;
     padding: 12px 24px 0 24px;
 }
+
+/*Mobiles*/
+
+@media screen and (max-width : 480px) {
+    .centered-form__box {
+        width: 1000px !important;
+        height: auto;
+    }
+}
+
